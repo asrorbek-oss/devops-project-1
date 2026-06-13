@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>O'zbekiston Terma Jamoasi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <div class="logo">
+      <span class="logo__star">★</span>
+      <span class="logo__text">O'ZBEKISTON<br><small>Terma jamoa</small></span>
+    </div>
+    <nav class="nav">
+      <a href="#about">Jamoa</a>
+      <a href="#squad">Tarkib</a>
+      <a href="#matches">O'yinlar</a>
+      <a href="#news">Yangiliklar</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero__bg"></div>
+  <div class="container hero__content">
+    <p class="hero__eyebrow">FIFA Reyting — Markaziy Osiyoda №1</p>
+    <h1 class="hero__title">Yagona maqsad sari<br><span class="accent">birga</span></h1>
+    <p class="hero__desc">O'zbekiston Milliy Futbol Terma Jamoasi — jasorat, g'urur va orzularimiz aks etgan maydon.</p>
+    <div class="hero__actions">
+      <a href="#matches" class="btn btn--primary">Keyingi o'yin</a>
+      <a href="#squad" class="btn btn--ghost">Tarkibni ko'rish</a>
+    </div>
+  </div>
+  <div class="hero__score">
+    <div class="score__row">
+      <span class="score__flag">🇺🇿</span>
+      <span class="score__name">O'zbekiston</span>
+      <span class="score__num">2</span>
+    </div>
+    <div class="score__divider">FINAL</div>
+    <div class="score__row">
+      <span class="score__flag">🇰🇷</span>
+      <span class="score__name">Janubiy Koreya</span>
+      <span class="score__num">1</span>
+    </div>
+  </div>
+</section>
+
+<section class="stats" id="about">
+  <div class="container stats__grid">
+    <div class="stat">
+      <span class="stat__num" data-target="68">0</span>
+      <span class="stat__label">FIFA reytingi</span>
+    </div>
+    <div class="stat">
+      <span class="stat__num" data-target="2">0</span>
+      <span class="stat__label">Jahon chempionati (2026, debyut)</span>
+    </div>
+    <div class="stat">
+      <span class="stat__num" data-target="15">0</span>
+      <span class="stat__label">Osiyo Kubogi ishtiroki</span>
+    </div>
+    <div class="stat">
+      <span class="stat__num" data-target="26">0</span>
+      <span class="stat__label">Tarkibdagi futbolchilar</span>
+    </div>
+  </div>
+</section>
+
+<section class="squad" id="squad">
+  <div class="container">
+    <h2 class="section-title"><span class="num">01</span> Asosiy tarkib</h2>
+    <div class="squad__grid" id="squadGrid">
+      <!-- JS orqali to'ldiriladi -->
+    </div>
+  </div>
+</section>
+
+<section class="matches" id="matches">
+  <div class="container">
+    <h2 class="section-title"><span class="num">02</span> O'yinlar jadvali</h2>
+    <div class="matches__list" id="matchesList"></div>
+  </div>
+</section>
+
+<section class="news" id="news">
+  <div class="container">
+    <h2 class="section-title"><span class="num">03</span> Yangiliklar</h2>
+    <div class="news__grid">
+      <article class="news__card">
+        <div class="news__tag">Jamoa</div>
+        <h3>Terma jamoa Jahon chempionatiga yo'l olmoqda</h3>
+        <p>Bosh murabbiy yangi taktik tizim ustida ishlashni davom ettiryapti.</p>
+      </article>
+      <article class="news__card">
+        <div class="news__tag">Mashg'ulot</div>
+        <h3>Pakhtakor stadionida yopiq mashg'ulot</h3>
+        <p>Jamoa keyingi o'yinga jadal tayyorgarlik ko'rmoqda.</p>
+      </article>
+      <article class="news__card">
+        <div class="news__tag">Tarix</div>
+        <h3>Milliy chempionatning eng yaxshi o'yinchilari</h3>
+        <p>So'nggi mavsumda terma jamoaga chaqirilgan futbolchilar tahlili.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>&copy; 2026 O'zbekiston Futbol Federatsiyasi. Barcha huquqlar himoyalangan.</p>
+    <div class="footer__social">
+      <a href="#">Instagram</a>
+      <a href="#">Telegram</a>
+      <a href="#">YouTube</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
